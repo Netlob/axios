@@ -92,6 +92,7 @@ export interface AxiosRequestConfig<D = any> {
   transitional?: TransitionalOptions;
   signal?: AbortSignal;
   insecureHTTPParser?: boolean;
+  localAddress?: string;
 }
 
 export interface HeadersDefaults {
